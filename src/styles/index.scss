@@ -1,5 +1,52 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
+.rectangle{
+    background-color:black;
+    height:400px;
+    width:200px;
+}
+
+.green-light{
+     background-color:grey;
+     border-radius: 50%;
+     border:2px solid white;
+   
+
+
+}
+.rectangle div{
+    height:130px;
+    width:140px;
+}
+.green-selected{
+    background-color:green;
+    box-shadow: 20px 20px 50px 10px lightgreen;
+    border-radius: 50%;
+}
+.red-light{
+     background-color:grey;
+     border-radius: 50%;
+     border:2px solid white;
+
+
+}
+.red-selected{
+    background-color:red;
+    box-shadow: 20px 20px 50px 10px lightcoral;
+    border-radius: 50%;
+}
+.yelllow-light{
+     background-color:grey;
+     border-radius: 50%;
+     border:2px solid white;
+    
+
+}
+.yellow-selected{
+    background-color:yellow;
+    box-shadow: 20px 20px 50px 10px yellowgreen;
+    border-radius: 50%;
+}
 /* 
 
     You can write your own styles here...
